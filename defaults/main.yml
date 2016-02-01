@@ -1,14 +1,7 @@
 ---
-julia_epel_ver : 7
-
-julia_use_pkgs : True
-
 julia_major_ver : '0.4'
 julia_minor_ver : '.2'
 julia_platform : 'linux-x86_64'
-
-# build from source
-julia_build_src : False
 
 # git repo containing julia build
 julia_build_repo : 'git://github.com/JuliaLang/julia.git'
