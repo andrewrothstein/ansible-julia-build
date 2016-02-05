@@ -1,6 +1,6 @@
 ---
 - name: (RedHat) installing dependent pkgs
-  package: name={{item}} state=latest
+  package: name={{item}} state=present
   with_items:
     - curl
     - git

@@ -1,6 +1,6 @@
 ---
 - name: (Ubuntu) installing dependent pkgs (see julia.git/.travis.yml)
-  package: name={{item}} state=latest
+  package: name={{item}} state=present
   with_items:
     - curl
     - git
